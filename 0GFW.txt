@@ -1,0 +1,1603 @@
+# classes12.dex
+
+.class public final LX/0GFW;
+.super LX/04Zf;
+.source ""
+
+# interfaces
+.implements LX/0nuh;
+.implements LX/0C7J;
+
+
+# static fields
+.field public static final __redex_internal_original_name:Ljava/lang/String; = "DirectNewCollectionFragment"
+
+
+# instance fields
+.field public A00:Landroid/view/View;
+
+.field public A01:Landroid/view/ViewGroup;
+
+.field public A02:Landroidx/recyclerview/widget/RecyclerView;
+
+.field public A03:Lcom/instagram/common/ui/base/IgTextView;
+
+.field public A04:Lcom/instagram/igds/components/search/IgdsInlineSearchBox;
+
+.field public A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+.field public A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+.field public A07:Ljava/lang/Integer;
+
+.field public A08:Z
+
+.field public A09:Z
+
+.field public final A0A:LX/0nxB;
+
+.field public final A0B:LX/0nxB;
+
+.field public final A0C:LX/0nxB;
+
+.field public final A0D:LX/0nxB;
+
+.field public final A0E:LX/0nxB;
+
+.field public final A0F:LX/0nxB;
+
+.field public final A0G:LX/0nxB;
+
+.field public final A0H:LX/0nxB;
+
+.field public final A0I:LX/0nxB;
+
+.field public final A0J:LX/0nxB;
+
+.field public final A0K:LX/0nxB;
+
+.field public final A0L:LX/0lmr;
+
+.field public final A0M:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 3
+
+    invoke-direct {p0}, LX/04Zf;-><init>()V
+
+    const/16 v1, 0x3a
+
+    new-instance v0, LX/0482;
+
+    invoke-direct {v0, p0, v1}, LX/0482;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0B:LX/0nxB;
+
+    const/16 v1, 0x14
+
+    new-instance v0, LX/0OI2;
+
+    invoke-direct {v0, p0, v1}, LX/0OI2;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0A:LX/0nxB;
+
+    const/16 v1, 0x47
+
+    new-instance v0, LX/0R7i;
+
+    invoke-direct {v0, p0, v1}, LX/0R7i;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0F:LX/0nxB;
+
+    const/16 v1, 0xab
+
+    new-instance v0, LX/0F7B;
+
+    invoke-direct {v0, p0, v1}, LX/0F7B;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0E:LX/0nxB;
+
+    const/16 v1, 0x46
+
+    new-instance v0, LX/0R7i;
+
+    invoke-direct {v0, p0, v1}, LX/0R7i;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0D:LX/0nxB;
+
+    const/16 v1, 0x2f
+
+    new-instance v0, LX/0QZ2;
+
+    invoke-direct {v0, p0, v1}, LX/0QZ2;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0H:LX/0nxB;
+
+    const/16 v1, 0x2e
+
+    new-instance v0, LX/0QZ2;
+
+    invoke-direct {v0, p0, v1}, LX/0QZ2;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0G:LX/0nxB;
+
+    const/16 v1, 0x8
+
+    new-instance v0, LX/0N81;
+
+    invoke-direct {v0, p0, v1}, LX/0N81;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0J:LX/0nxB;
+
+    const/16 v1, 0x28
+
+    new-instance v0, LX/0PI4;
+
+    invoke-direct {v0, p0, v1}, LX/0PI4;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0I:LX/0nxB;
+
+    const/16 v1, 0x4d
+
+    new-instance v0, LX/0PHZ;
+
+    invoke-direct {v0, p0, v1}, LX/0PHZ;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0}, LX/00VC;->A00(Lkotlin/jvm/functions/Function0;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0C:LX/0nxB;
+
+    const/4 v1, 0x2
+
+    new-instance v0, LX/0PAS;
+
+    invoke-direct {v0, p0, v1}, LX/0PAS;-><init>(Ljava/lang/Object;I)V
+
+    iput-object v0, p0, LX/0GFW;->A0L:LX/0lmr;
+
+    const/16 v0, 0x463
+
+    invoke-static {v0}, LX/0000;->A00(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0M:Ljava/lang/String;
+
+    invoke-static {p0}, LX/00Qa;->A02(Landroidx/fragment/app/Fragment;)LX/0nxB;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A0K:LX/0nxB;
+
+    return-void
+.end method
+
+.method public static final A00(Landroid/view/View;LX/0GFW;)V
+    .registers 11
+
+    const/4 v3, 0x1
+
+    iget-object v0, p1, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v0, :cond_c
+
+    invoke-virtual {v0}, Landroid/widget/CompoundButton;->isChecked()Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    if-eq v0, v3, :cond_d
+
+    :cond_c
+    const/4 v1, 0x0
+
+    :cond_d
+    iget-object v0, p1, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1c
+
+    const-string v0, "collectionNameEditText"
+
+    invoke-static {v0}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_1c
+    invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4f
+
+    invoke-static {v0}, LX/071z;->A16(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4f
+
+    if-eqz v1, :cond_59
+
+    iget-object v0, p1, LX/0GFW;->A0A:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Lx1;
+
+    iget-object v0, v0, LX/0Lx1;->A01:Lcom/instagram/model/direct/DirectShareTarget;
+
+    if-nez v0, :cond_59
+
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_43
+
+    const v0, 0x7f131f37
+
+    :goto_3f
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    :cond_43
+    invoke-static {}, LX/0221;->A0a()LX/0CfT;
+
+    move-result-object v1
+
+    sget-object v0, LX/06qj;->A01:LX/06qj;
+
+    iput-object v2, v1, LX/0CfT;->A0E:Ljava/lang/CharSequence;
+
+    invoke-static {v0, v1}, LX/0223;->A1W(LX/06qj;LX/0CfT;)V
+
+    return-void
+
+    :cond_4f
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_43
+
+    const v0, 0x7f131f36
+
+    goto :goto_3f
+
+    :cond_59
+    iget-object v0, p1, LX/0GFW;->A07:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_6d
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    int-to-float v4, v0
+
+    const/4 v2, 0x0
+
+    const/16 v1, 0x139
+
+    new-instance v0, LX/0C2F;
+
+    invoke-direct {v0, v1}, LX/0C2F;-><init>(I)V
+
+    invoke-static {p1, v0, v2, v4}, LX/0GFW;->A01(LX/0GFW;Lkotlin/jvm/functions/Function0;FF)V
+
+    :cond_6d
+    invoke-static {p0}, LX/06me;->A0Z(Landroid/view/View;)V
+
+    new-instance v1, Lcom/instagram/save/model/SavedCollection;
+
+    invoke-direct {v1}, Lcom/instagram/save/model/SavedCollection;-><init>()V
+
+    iget-object v0, p1, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    if-nez v0, :cond_83
+
+    const-string v0, "collectionNameEditText"
+
+    invoke-static {v0}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_83
+    invoke-static {v0}, LX/0220;->A0u(Landroid/widget/EditText;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, v1, Lcom/instagram/save/model/SavedCollection;->A0G:Ljava/lang/String;
+
+    const/16 v0, 0xe9
+
+    invoke-static {v0}, LX/020R;->A00(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v1}, LX/0004;->A0g(Ljava/lang/Object;Ljava/lang/Object;)LX/06v2;
+
+    move-result-object v4
+
+    const/4 v1, 0x0
+
+    const/16 v0, 0xd8b
+
+    invoke-static {v0}, LX/0000;->A00(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v1}, LX/0221;->A0r(Ljava/lang/Object;Z)LX/06v2;
+
+    move-result-object v5
+
+    iget-object v1, p1, LX/0GFW;->A0B:LX/0nxB;
+
+    invoke-interface {v1}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;
+
+    iget-object v0, v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;->A03:Ljava/lang/Integer;
+
+    invoke-static {v0}, LX/0KN9;->A00(Ljava/lang/Integer;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/16 v0, 0xd8c
+
+    invoke-static {v0}, LX/0000;->A00(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v2}, LX/0004;->A0g(Ljava/lang/Object;Ljava/lang/Object;)LX/06v2;
+
+    move-result-object v6
+
+    iget-boolean v0, p1, LX/0GFW;->A09:Z
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v2
+
+    const/16 v0, 0xd8e
+
+    invoke-static {v0}, LX/0000;->A00(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v2}, LX/0004;->A0g(Ljava/lang/Object;Ljava/lang/Object;)LX/06v2;
+
+    move-result-object v7
+
+    const/16 v0, 0xd8d
+
+    invoke-static {v0}, LX/0000;->A00(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    iget-object v0, p1, LX/0GFW;->A0H:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_dc
+
+    iget-object v0, p1, LX/0GFW;->A0G:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_13e
+
+    :cond_dc
+    iget-object v0, p1, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v0, :cond_13e
+
+    invoke-virtual {v0}, Landroid/widget/CompoundButton;->isChecked()Z
+
+    move-result v0
+
+    if-ne v0, v3, :cond_13e
+
+    iget-object v0, p1, LX/0GFW;->A0A:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Lx1;
+
+    iget-object v0, v0, LX/0Lx1;->A01:Lcom/instagram/model/direct/DirectShareTarget;
+
+    if-eqz v0, :cond_13c
+
+    invoke-virtual {v0}, Lcom/instagram/model/direct/DirectShareTarget;->A0A()Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_f6
+    invoke-static {v2, v0}, LX/0004;->A0g(Ljava/lang/Object;Ljava/lang/Object;)LX/06v2;
+
+    move-result-object v8
+
+    invoke-interface {v1}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;
+
+    iget-object v1, v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;->A04:Ljava/lang/String;
+
+    const/16 v0, 0xd8a
+
+    invoke-static {v0}, LX/0000;->A00(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v1}, LX/0004;->A0g(Ljava/lang/Object;Ljava/lang/Object;)LX/06v2;
+
+    move-result-object p0
+
+    filled-new-array/range {v4 .. v9}, [LX/06v2;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/01uC;->A00([LX/06v2;)Landroid/os/Bundle;
+
+    move-result-object v1
+
+    sget-object v0, LX/0HOV;->A02:LX/0HOV;
+
+    invoke-static {v1, v0}, LX/0KOG;->A01(Landroid/os/Bundle;LX/0HOV;)V
+
+    const v0, 0x40003
+
+    invoke-static {v0}, LX/02ty;->A01(I)Ljava/lang/Object;
+
+    new-instance v2, LX/0Ep4;
+
+    invoke-direct {v2}, LX/0Ep4;-><init>()V
+
+    invoke-virtual {v2, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v1
+
+    iget-object v0, p1, LX/0GFW;->A0K:LX/0nxB;
+
+    invoke-static {v0}, LX/0211;->A0Y(LX/0nxB;)LX/01uo;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, LX/0211;->A0R(Landroidx/fragment/app/FragmentActivity;LX/01uo;)LX/016s;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, LX/016s;->A0F(Landroidx/fragment/app/Fragment;)V
+
+    invoke-virtual {v0}, LX/016s;->A06()V
+
+    return-void
+
+    :cond_13c
+    const/4 v0, 0x0
+
+    goto :goto_f6
+
+    :cond_13e
+    invoke-interface {v1}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;
+
+    iget-object v0, v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;->A08:Ljava/lang/String;
+
+    goto :goto_f6
+.end method
+
+.method public static final A01(LX/0GFW;Lkotlin/jvm/functions/Function0;FF)V
+    .registers 8
+
+    iget-object v3, p0, LX/0GFW;->A01:Landroid/view/ViewGroup;
+
+    const/4 v2, 0x1
+
+    if-eqz v3, :cond_21
+
+    sget-object v0, LX/000B;->A00:Ljava/lang/Integer;
+
+    invoke-static {v3, v0}, LX/0454;->A0j(Landroid/view/View;Ljava/lang/Integer;)LX/01ZJ;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, LX/01ZJ;->A0F(Z)LX/01ZJ;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p2}, LX/01ZJ;->A0L(F)V
+
+    invoke-static {v3}, LX/0123;->A03(Landroid/view/View;)F
+
+    move-result v0
+
+    iput-boolean v2, v1, LX/01ZJ;->A0F:Z
+
+    iput v0, v1, LX/01ZJ;->A00:F
+
+    iput p3, v1, LX/01ZJ;->A03:F
+
+    const/16 v0, 0xa
+
+    invoke-static {v1, p1, v0}, LX/0C22;->A00(LX/01ZJ;Ljava/lang/Object;I)V
+
+    :cond_21
+    sget-object v0, LX/01ZJ;->A0a:Ljava/lang/Integer;
+
+    iget-object v1, p0, LX/0GFW;->A00:Landroid/view/View;
+
+    if-nez v1, :cond_31
+
+    const-string v0, "composerContainer"
+
+    invoke-static {v0}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_31
+    sget-object v0, LX/000B;->A00:Ljava/lang/Integer;
+
+    invoke-static {v1, v0}, LX/0454;->A0j(Landroid/view/View;Ljava/lang/Integer;)LX/01ZJ;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, LX/01ZJ;->A0F(Z)LX/01ZJ;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p2}, LX/01ZJ;->A0L(F)V
+
+    invoke-virtual {v0}, LX/01ZJ;->A0H()V
+
+    return-void
+.end method
+
+.method public static final A02(LX/0GFW;Z)V
+    .registers 7
+
+    iget-object v0, p0, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    if-nez v0, :cond_e
+
+    const-string v0, "collectionNameEditText"
+
+    invoke-static {v0}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_e
+    invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
+
+    move-result-object v0
+
+    const/4 v4, 0x0
+
+    if-eqz v0, :cond_29
+
+    invoke-static {v0}, LX/071z;->A16(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_29
+
+    if-eqz p1, :cond_37
+
+    iget-object v0, p0, LX/0GFW;->A0A:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Lx1;
+
+    iget-object v0, v0, LX/0Lx1;->A01:Lcom/instagram/model/direct/DirectShareTarget;
+
+    if-nez v0, :cond_37
+
+    :cond_29
+    :goto_29
+    iget-object v3, p0, LX/0GFW;->A03:Lcom/instagram/common/ui/base/IgTextView;
+
+    const-string v2, "saveButton"
+
+    if-nez v3, :cond_39
+
+    invoke-static {v2}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_37
+    const/4 v4, 0x1
+
+    goto :goto_29
+
+    :cond_39
+    const v1, 0x3e99999a  # 0.3f
+
+    if-eqz v4, :cond_40
+
+    const/high16 v1, 0x3f800000  # 1.0f
+
+    :cond_40
+    const v0, -0x3ef41875
+
+    invoke-static {v3, v1, v0}, LX/00bU;->A05(Landroid/view/View;FI)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const/4 v0, 0x1
+
+    invoke-static {v1, v0}, LX/00hh;->A01(Landroid/content/Context;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_64
+
+    iget-object v1, p0, LX/0GFW;->A03:Lcom/instagram/common/ui/base/IgTextView;
+
+    if-nez v1, :cond_5d
+
+    invoke-static {v2}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_5d
+    const v0, -0x18c1196
+
+    invoke-static {v1, v0, v4}, LX/00bU;->A0c(Landroid/view/View;IZ)V
+
+    return-void
+
+    :cond_64
+    return-void
+.end method
+
+
+# virtual methods
+.method public final EbY()Z
+    .registers 2
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final EgF()Z
+    .registers 2
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final G4n(LX/0Vll;Ljava/lang/String;Z)V
+    .registers 5
+
+    invoke-static {p1}, LX/06z0;->A0d(Ljava/lang/Object;)V
+
+    invoke-interface {p1}, LX/0Vll;->DOv()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/Collection;
+
+    invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_17
+
+    new-instance v0, LX/0Seg;
+
+    invoke-direct {v0, p1, p0}, LX/0Seg;-><init>(LX/0Vll;LX/0GFW;)V
+
+    invoke-static {v0}, LX/02iz;->A01(Ljava/lang/Runnable;)V
+
+    :cond_17
+    return-void
+.end method
+
+.method public final getModuleName()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, LX/0GFW;->A0M:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic getSession()LX/01uo;
+    .registers 2
+
+    iget-object v0, p0, LX/0GFW;->A0K:LX/0nxB;
+
+    invoke-static {v0}, LX/0211;->A0Y(LX/0nxB;)LX/01uo;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final onCreate(Landroid/os/Bundle;)V
+    .registers 5
+
+    const v0, 0x22f29abe
+
+    invoke-static {v0}, LX/06EG;->A02(I)I
+
+    move-result v2
+
+    invoke-super {p0, p1}, LX/04Zf;->onCreate(Landroid/os/Bundle;)V
+
+    invoke-static {p0}, LX/0220;->A0D(Landroidx/fragment/app/Fragment;)Landroid/view/Window;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_15
+
+    const/16 v0, 0x35
+
+    invoke-virtual {v1, v0}, Landroid/view/Window;->setSoftInputMode(I)V
+
+    :cond_15
+    iget-object v0, p0, LX/0GFW;->A0G:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2a
+
+    iget-object v0, p0, LX/0GFW;->A0I:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, LX/0nwH;
+
+    iget-object v0, p0, LX/0GFW;->A0L:LX/0lmr;
+
+    invoke-interface {v1, v0}, LX/0nwH;->AQ2(LX/0lmr;)V
+
+    :cond_2a
+    const v0, -0x2fa08c03
+
+    invoke-static {v0, v2}, LX/06EG;->A09(II)V
+
+    return-void
+.end method
+
+.method public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    .registers 8
+
+    const v0, -0x3192a48d
+
+    invoke-static {v0}, LX/06EG;->A02(I)I
+
+    move-result v3
+
+    const/4 v2, 0x0
+
+    invoke-static {p1, v2}, LX/06z0;->A0h(Ljava/lang/Object;I)V
+
+    iget-object v0, p0, LX/0GFW;->A0G:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v1
+
+    const v0, 0x7f0e10c0
+
+    if-eqz v1, :cond_19
+
+    const v0, 0x7f0e10c4
+
+    :cond_19
+    invoke-static {p1, p2, v0, v2}, LX/021X;->A05(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;IZ)Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, -0x5a9efb1d
+
+    invoke-static {v0, v3}, LX/06EG;->A09(II)V
+
+    return-object v1
+.end method
+
+.method public final onDestroy()V
+    .registers 4
+
+    const v0, 0x1d2da88
+
+    invoke-static {v0}, LX/06EG;->A02(I)I
+
+    move-result v2
+
+    invoke-super {p0}, LX/04Zf;->onDestroy()V
+
+    iget-object v0, p0, LX/0GFW;->A0I:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, LX/0nwH;
+
+    iget-object v0, p0, LX/0GFW;->A0L:LX/0lmr;
+
+    invoke-interface {v1, v0}, LX/0nwH;->GtR(LX/0lmr;)V
+
+    iget-object v0, p0, LX/0GFW;->A0J:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Vll;
+
+    invoke-interface {v0}, LX/0Vll;->FXS()V
+
+    const v0, 0x46c1a6e7
+
+    invoke-static {v0, v2}, LX/06EG;->A09(II)V
+
+    return-void
+.end method
+
+.method public final onStart()V
+    .registers 4
+
+    const v0, -0x79074ecd
+
+    invoke-static {v0}, LX/06EG;->A02(I)I
+
+    move-result v2
+
+    invoke-super {p0}, LX/04Zf;->onStart()V
+
+    iget-object v0, p0, LX/0GFW;->A0I:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, LX/0nwH;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0}, LX/0nwH;->GK8(Landroid/app/Activity;)V
+
+    const v0, 0x5f85ee3e
+
+    invoke-static {v0, v2}, LX/06EG;->A09(II)V
+
+    return-void
+.end method
+
+.method public final onStop()V
+    .registers 3
+
+    const v0, -0x2ef20e38
+
+    invoke-static {v0}, LX/06EG;->A02(I)I
+
+    move-result v1
+
+    invoke-super {p0}, LX/04Zf;->onStop()V
+
+    iget-object v0, p0, LX/0GFW;->A0I:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0nwH;
+
+    invoke-interface {v0}, LX/0nwH;->onStop()V
+
+    const v0, 0x1623be9a
+
+    invoke-static {v0, v1}, LX/06EG;->A09(II)V
+
+    return-void
+.end method
+
+.method public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .registers 10
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v3}, LX/06z0;->A0h(Ljava/lang/Object;I)V
+
+    invoke-super {p0, p1, p2}, LX/04Zf;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    invoke-static {p0}, LX/0465;->A16(Landroidx/fragment/app/Fragment;)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b0e2e
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A00:Landroid/view/View;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b0d1c
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    iput-object v1, p0, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    const-string v6, "collectionNameEditText"
+
+    if-nez v1, :cond_32
+
+    invoke-static {v6}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_32
+    const/16 v4, 0xd
+
+    new-instance v0, LX/0OiH;
+
+    invoke-direct {v0, p0, v4}, LX/0OiH;-><init>(Ljava/lang/Object;I)V
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+
+    iget-object v2, p0, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    if-nez v2, :cond_48
+
+    invoke-static {v6}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_48
+    const/4 v1, 0x3
+
+    new-instance v0, LX/0OoZ;
+
+    invoke-direct {v0, p0, v1}, LX/0OoZ;-><init>(Ljava/lang/Object;I)V
+
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
+
+    iget-object v1, p0, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    if-nez v1, :cond_5d
+
+    invoke-static {v6}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_5d
+    new-instance v0, LX/0TRs;
+
+    invoke-direct {v0, p0, v4}, LX/0TRs;-><init>(Ljava/lang/Object;I)V
+
+    iput-object v0, v1, Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;->A00:Lkotlin/jvm/functions/Function0;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b0d0f
+
+    invoke-static {v1, v0}, LX/00N3;->A0M(Landroid/view/View;I)Landroid/widget/TextView;
+
+    move-result-object v2
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b0d11
+
+    invoke-static {v1, v0}, LX/00N3;->A0M(Landroid/view/View;I)Landroid/widget/TextView;
+
+    move-result-object v5
+
+    sget-object v1, LX/000B;->A00:Ljava/lang/Integer;
+
+    iget-object v4, p0, LX/0GFW;->A0B:LX/0nxB;
+
+    invoke-interface {v4}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;
+
+    iget-object v0, v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;->A03:Ljava/lang/Integer;
+
+    if-ne v1, v0, :cond_b6
+
+    const v1, 0x7f131f35
+
+    invoke-interface {v4}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;
+
+    iget-object v0, v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;->A09:Ljava/lang/String;
+
+    invoke-static {p0, v0, v1}, LX/0220;->A0y(Landroidx/fragment/app/Fragment;Ljava/lang/Object;I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    const v0, 0x7f131f3a
+
+    :goto_9d
+    invoke-static {v5, p0, v0}, LX/021X;->A1A(Landroid/widget/TextView;Landroidx/fragment/app/Fragment;I)V
+
+    :cond_a0
+    :goto_a0
+    iget-object v5, p0, LX/0GFW;->A0F:LX/0nxB;
+
+    invoke-static {v5}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_138
+
+    iget-object v1, p0, LX/0GFW;->A00:Landroid/view/View;
+
+    const-string v2, "composerContainer"
+
+    if-nez v1, :cond_126
+
+    invoke-static {v2}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_b6
+    iget-object v0, p0, LX/0GFW;->A0H:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_d0
+
+    iget-object v0, p0, LX/0GFW;->A0G:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_d0
+
+    const v0, 0x7f13691d
+
+    invoke-static {v2, p0, v0}, LX/021X;->A1A(Landroid/widget/TextView;Landroidx/fragment/app/Fragment;I)V
+
+    const v0, 0x7f13691c
+
+    goto :goto_9d
+
+    :cond_d0
+    const v0, 0x7f13624c
+
+    invoke-static {v2, p0, v0}, LX/021X;->A1A(Landroid/widget/TextView;Landroidx/fragment/app/Fragment;I)V
+
+    const v2, 0x7f13624b
+
+    invoke-static {v5, p0, v2}, LX/021X;->A1A(Landroid/widget/TextView;Landroidx/fragment/app/Fragment;I)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b0cf0
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    iput-object v1, p0, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v1, :cond_f4
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0, v1, v2}, LX/021Q;->A0y(Landroid/content/Context;Landroid/view/View;I)V
+
+    :cond_f4
+    iget-object v0, p0, LX/0GFW;->A0F:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_103
+
+    iget-object v0, p0, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v0, :cond_103
+
+    invoke-virtual {v0}, Lcom/instagram/igds/components/switchbutton/IgdsSwitch;->A00()V
+
+    :cond_103
+    iget-object v2, p0, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v2, :cond_117
+
+    iget-object v0, p0, LX/0GFW;->A0E:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    invoke-static {v0}, LX/022R;->A02(I)I
+
+    move-result v1
+
+    const v0, -0x21cda0cb
+
+    invoke-static {v2, v1, v0}, LX/00bU;->A0W(Landroid/view/View;II)V
+
+    :cond_117
+    iget-object v2, p0, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v2, :cond_a0
+
+    const/16 v1, 0x13
+
+    new-instance v0, LX/0PtW;
+
+    invoke-direct {v0, p0, v1}, LX/0PtW;-><init>(Ljava/lang/Object;I)V
+
+    iput-object v0, v2, Lcom/instagram/igds/components/switchbutton/IgdsSwitch;->A07:LX/0Qom;
+
+    goto/16 :goto_a0
+
+    :cond_126
+    const v0, 0x30bbf8de
+
+    invoke-static {v1, v0}, LX/00bU;->A0M(Landroid/view/View;I)V
+
+    iget-object v1, p0, LX/0GFW;->A00:Landroid/view/View;
+
+    if-nez v1, :cond_157
+
+    invoke-static {v2}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_138
+    iget-object v0, p0, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    if-nez v0, :cond_144
+
+    invoke-static {v6}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_144
+    invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
+
+    iget-object v0, p0, LX/0GFW;->A06:Lcom/instagram/ui/text/backinterceptedittext/BackInterceptEditText;
+
+    if-nez v0, :cond_153
+
+    invoke-static {v6}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_153
+    invoke-static {v0}, LX/06me;->A0c(Landroid/view/View;)V
+
+    goto :goto_15d
+
+    :cond_157
+    const v0, 0x43390e0f
+
+    invoke-static {v1, v3, v0}, LX/00bU;->A0W(Landroid/view/View;II)V
+
+    :goto_15d
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b091d
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    const/16 v0, 0xb
+
+    invoke-static {v1, p0, v0}, LX/0OmD;->A00(Landroid/view/View;Ljava/lang/Object;I)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b38aa
+
+    invoke-static {v1, v0}, LX/00N3;->A0V(Landroid/view/View;I)Lcom/instagram/common/ui/base/IgTextView;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A03:Lcom/instagram/common/ui/base/IgTextView;
+
+    const/4 v2, 0x1
+
+    iget-object v0, p0, LX/0GFW;->A05:Lcom/instagram/igds/components/switchbutton/IgdsSwitch;
+
+    if-eqz v0, :cond_186
+
+    invoke-virtual {v0}, Landroid/widget/CompoundButton;->isChecked()Z
+
+    move-result v1
+
+    const/4 v0, 0x1
+
+    if-eq v1, v2, :cond_187
+
+    :cond_186
+    const/4 v0, 0x0
+
+    :cond_187
+    invoke-static {p0, v0}, LX/0GFW;->A02(LX/0GFW;Z)V
+
+    iget-object v1, p0, LX/0GFW;->A03:Lcom/instagram/common/ui/base/IgTextView;
+
+    if-nez v1, :cond_198
+
+    const-string v0, "saveButton"
+
+    invoke-static {v0}, LX/06z0;->A0o(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0002;->createAndThrow()LX/0002;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_198
+    const/16 v0, 0xc
+
+    invoke-static {v1, p0, v0}, LX/0OmD;->A00(Landroid/view/View;Ljava/lang/Object;I)V
+
+    invoke-interface {v4}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;
+
+    iget-object v4, v0, Lcom/instagram/direct/messagethread/collections/model/DirectCollectionArguments;->A00:Lcom/instagram/common/typedurl/ImageUrl;
+
+    if-eqz v4, :cond_1b9
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b0d20
+
+    invoke-static {v1, v0}, LX/0213;->A0Q(Landroid/view/View;I)Lcom/instagram/common/ui/widget/imageview/IgImageView;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, LX/04Zf;->getBaseAnalyticsModule()LX/0A5f;
+
+    move-result-object v0
+
+    invoke-static {v0, v4, v1, v2, v3}, LX/0237;->A1J(LX/0A5f;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/common/ui/widget/imageview/IgImageView;IZ)V
+
+    :cond_1b9
+    iget-object v0, p0, LX/0GFW;->A0H:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1ca
+
+    iget-object v0, p0, LX/0GFW;->A0G:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1ca
+
+    return-void
+
+    :cond_1ca
+    iget-object v4, p0, LX/0GFW;->A0J:LX/0nxB;
+
+    invoke-interface {v4}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Vll;
+
+    invoke-interface {v0, p0}, LX/0Vll;->HIE(LX/0C7J;)V
+
+    const-string v1, ""
+
+    invoke-interface {v4}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Vll;
+
+    invoke-interface {v0, v1}, LX/0Vll;->HPL(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b40ba
+
+    invoke-static {v1, v0}, LX/021X;->A07(Landroid/view/View;I)Landroid/view/ViewGroup;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0GFW;->A01:Landroid/view/ViewGroup;
+
+    invoke-static {v5}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_21a
+
+    iget-object v0, p0, LX/0GFW;->A0G:LX/0nxB;
+
+    invoke-static {v0}, LX/0004;->A0z(LX/0nxB;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_210
+
+    iget-object v4, p0, LX/0GFW;->A01:Landroid/view/ViewGroup;
+
+    if-eqz v4, :cond_26c
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/02qV;->A00(Landroid/content/Context;)I
+
+    move-result v0
+
+    int-to-float v1, v0
+
+    const v0, 0x3f19999a  # 0.6f
+
+    mul-float/2addr v1, v0
+
+    float-to-int v0, v1
+
+    invoke-static {v4, v0}, LX/06me;->A0g(Landroid/view/View;I)V
+
+    :cond_210
+    iget-object v1, p0, LX/0GFW;->A01:Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_21a
+
+    const v0, 0x7410152
+
+    invoke-static {v1, v3, v0}, LX/00bU;->A0W(Landroid/view/View;II)V
+
+    :cond_21a
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b40b7
+
+    invoke-static {v1, v0}, LX/0213;->A0D(Landroid/view/View;I)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object v1
+
+    iput-object v1, p0, LX/0GFW;->A02:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v1, :cond_236
+
+    iget-object v0, p0, LX/0GFW;->A0A:LX/0nxB;
+
+    invoke-interface {v0}, LX/0nxB;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0Lx1;
+
+    iget-object v0, v0, LX/0Lx1;->A00:LX/03GN;
+
+    invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(LX/09Vj;)V
+
+    :cond_236
+    iget-object v1, p0, LX/0GFW;->A02:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v1, :cond_243
+
+    iput-boolean v2, v1, Landroidx/recyclerview/widget/RecyclerView;->A0X:Z
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0, v1, v2, v3}, LX/021Q;->A10(Landroid/content/Context;Landroidx/recyclerview/widget/RecyclerView;IZ)V
+
+    :cond_243
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, 0x7f0b40b9
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/instagram/igds/components/search/IgdsInlineSearchBox;
+
+    const/16 v1, 0xe
+
+    new-instance v0, LX/0TRs;
+
+    invoke-direct {v0, p0, v1}, LX/0TRs;-><init>(Ljava/lang/Object;I)V
+
+    invoke-virtual {v2, v0}, Lcom/instagram/igds/components/search/IgdsInlineSearchBox;->setEditTextOnBackListener(Lkotlin/jvm/functions/Function0;)V
+
+    const/16 v1, 0x8
+
+    new-instance v0, LX/0PsT;
+
+    invoke-direct {v0, p0, v1}, LX/0PsT;-><init>(Ljava/lang/Object;I)V
+
+    iput-object v0, v2, Lcom/instagram/igds/components/search/IgdsInlineSearchBox;->A02:LX/0VAG;
+
+    const v0, 0x18e1b264
+
+    invoke-static {v2, v3, v0}, LX/00bU;->A0W(Landroid/view/View;II)V
+
+    iput-object v2, p0, LX/0GFW;->A04:Lcom/instagram/igds/components/search/IgdsInlineSearchBox;
+
+    return-void
+
+    :cond_26c
+    invoke-static {}, LX/0004;->A0H()Ljava/lang/IllegalStateException;
+
+    move-result-object v0
+
+    throw v0
+.end method
